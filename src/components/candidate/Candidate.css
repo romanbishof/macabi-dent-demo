@@ -1,0 +1,89 @@
+.Candidate{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-right: 413px;
+    margin-top: 147px;
+    margin-left: 81px;
+    width: 1426px;
+    height: auto;
+    max-height: 933px;
+    gap: 35px;
+}
+
+.Candidate-currentPage{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 12px;
+}
+
+.Candidate-currentPage p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: right;
+    color: #172882;
+}
+
+.Candidate-currentPage img{
+    width: 6px;
+    height: 10px;
+}
+
+.Candidate-wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.Candidate-wrapper_searchBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 337px;
+    height: 50px;
+    text-align: right;
+    border: 2px solid #C4C4C4;
+    border-radius: 55px;
+}
+
+.Candidate-wrapper_searchBar:focus-within{
+    background: linear-gradient(white, white) padding-box,linear-gradient(100deg,#8D5FF5, #53B6E6) border-box;
+    border: 2px solid transparent;
+}
+
+.Candidate-wrapper_searchBar input{
+    margin-right: 31px;
+    border: none;
+    width: 90%;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+    color: #919191;
+    background: transparent;
+    cursor: pointer;
+}
+
+.Candidate-wrapper_searchBar img{
+    margin-left: 21px;
+}
+
+.Candidate-wrapper_addNewUser button{
+    width: 243px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    background: linear-gradient(white, white) padding-box,linear-gradient(100deg,#8D5FF5, #53B6E6) border-box;
+    border-radius: 55px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+

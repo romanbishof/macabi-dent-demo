@@ -1,0 +1,31 @@
+.Table{
+    width: 1426px;
+    height: auto;
+    /* max-height: 608px; */
+    background: #FFFFFF;
+    box-shadow: 4px 4px 17px rgba(0, 0, 0, 0.06);
+    /* overflow: hidden;
+    overflow-y: auto; */
+}
+
+.Table-container{
+    max-height: 549px;
+    overflow: hidden;
+    overflow-y: scroll;
+}::-webkit-scrollbar{
+    display: none;
+}
+
+
+/* .Table::-webkit-scrollbar{
+    display: none;
+} */
+
+img{
+    cursor: pointer;
+}
+/* .TableHeadRow{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #172882;
+} */

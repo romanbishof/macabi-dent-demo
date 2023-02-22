@@ -1,0 +1,102 @@
+.DialogComp{
+    /* width: 727px;
+    height: 485px; */
+}
+
+.DialogComp-dialog{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.DialogComp-dialog_icon{
+    align-self: flex-end;
+}
+
+.DialogComp-dialog_title{
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: 24px;
+    line-height: 31px;
+    color: #172882;
+}
+
+.DialogComp-dialog_form form{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap: 11px;
+    justify-content: center;
+}
+input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+.DialogComp-dialog_form input, select{
+
+    width: 312px;
+    height: 50px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+    color: #919191;
+    padding-right: 23px;
+
+    border: 1px solid #C4C4C4;
+    border-radius: 55px;
+}
+
+.DialogComp-dialog_form input:focus, select:focus{
+    background: linear-gradient(white, white) padding-box,linear-gradient(100deg,#8D5FF5, #53B6E6) border-box;
+    border: 1px solid transparent;
+}
+
+.DialogComp-dialog_buttons{
+    display: flex;
+    justify-content: center;
+
+    gap: 20px;
+    padding: 20px 0px;
+}
+
+#buttonSubmit{
+
+    width: 312px;
+    height: 50px;
+    left: 960px;
+    top: 679px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    border: none;
+    background: linear-gradient(88.24deg, #8D5FF5 -1.01%, #53B6E6 101.13%);
+    border-radius: 55px;
+    cursor: pointer;
+}
+
+#buttonCancel{
+    width: 310px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    background: linear-gradient(white, white) padding-box,linear-gradient(100deg,#8D5FF5, #53B6E6) border-box;
+    border-radius: 55px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+
+

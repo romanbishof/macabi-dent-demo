@@ -1,0 +1,53 @@
+.Header{
+    /* position: absolute; */
+    background: linear-gradient(269.81deg, #53B6E6 -0.35%, #8D5FF5 101.01%);
+    height: 81px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Header-user{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 81px;
+    gap: 12px;
+}
+
+.Header-user p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.4px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.Header-user_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Header-user_wraper-userName{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 11px;
+}
+
+.Header-user_wraper-userName img{
+    height: 6px;
+    width: 10px;
+}
+
+.Header-user_wraper-userJob p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px;
+    text-align: right;
+    color: #ffffff;
+}
